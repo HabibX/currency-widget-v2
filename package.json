@@ -2,6 +2,7 @@
   "name": "currency-widget-v2",
   "private": true,
   "type": "module",
+  "main": "src/index.tsx",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
@@ -9,12 +10,17 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.6",
     "@react-router/node": "^7.2.0",
     "@react-router/serve": "^7.2.0",
+    "formik": "^2.4.6",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.2.0"
+    "react-router": "^7.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@react-router/dev": "^7.2.0",
