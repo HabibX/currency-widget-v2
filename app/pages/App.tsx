@@ -1,5 +1,5 @@
 
-import CurrencyWidget from "~/components/currencyWidget";
+import CurrencyWidget from 'app/components/currencyWidget';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
