@@ -3,7 +3,7 @@ import React from 'react';
 // import logoLight from "./logo-light.svg";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { App } from '~/pages/app';
+import {App} from 'app/pages/App';
 
 const darkTheme = createTheme({
   palette: {
