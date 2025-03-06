@@ -6,7 +6,7 @@ import PaymentMethod from 'app/components/steps/PaymentMethod';
 import ReceiverInfo from 'app/components/steps/ReceiverInfo';
 import ConfirmationPage from 'app/components/steps/ConfirmationPage';
 import type { UserInfo, ReceiverInfo as ReceiverInfoType, TransactionDetails, PaymentInfo } from 'app/types';
-import AfpayLogo from 'app/assets/Afripayicon.jpg';
+import AfpayLogo from 'app/assets/afripaylogowhite.png';
 import DikaloLogo from 'app/assets/dikalo-logo.jpg';
 
 const CurrencyWidget = ({ companyName = 'Dikalo' }: { companyName?: string }) => {
@@ -43,10 +43,10 @@ const CurrencyWidget = ({ companyName = 'Dikalo' }: { companyName?: string }) =>
       <Box className="widget-header">
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', mb: 2 }}>
           <Box>
-            <img src={DikaloLogo} alt="Dikalo Logo" height="40" />
+            <img src={DikaloLogo} alt="Dikalo Logo" height="10" />
           </Box>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
-            <img src={AfpayLogo} alt="Afpay Logo" height="30" />
+            <img src={AfpayLogo} alt="Afpay Logo" height="15" />
             <Typography variant="body2" color="text.secondary" sx={{ color: 'rgba(255, 255, 255, 0.7)' }}>
               Powered by AfripayFinance ©
             </Typography>
