@@ -43,7 +43,7 @@ const CurrencyWidget = ({ companyName = 'Dikalo' }: { companyName?: string }) =>
       <Box className="widget-header">
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', mb: 2 }}>
           <Box>
-            <img src={DikaloLogo} alt="Dikalo Logo" height="40" />
+            <img src={DikaloLogo} alt="Dikalo Logo" height="20" />
           </Box>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
             <img src={AfpayLogo} alt="Afpay Logo" height="30" />
