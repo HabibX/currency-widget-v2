@@ -95,3 +95,4 @@ const CurrencyWidget = ({ companyName = 'Dikalo' }: { companyName?: string }) =>
 }
 
 export default CurrencyWidget;
+//fix123 
